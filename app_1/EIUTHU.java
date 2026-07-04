@@ -1,4 +1,3 @@
-
 // letter
 
 package app_1;
@@ -35,5 +34,5 @@ Chú thích:
     maxOver: là sự giống nhau tối đa giữa 2 dòng thư có thể có
     result1: dùng để check xem khi debug các kết quả so sánh hiện lên như nào ở dòng 1
     result2: dùng để check xem khi debug các kết quá so sánh hiện lên như nào ở dòng 2
-    index: ghi lại vị trí mà 2 đoạn code bắt đầu giống nhau cho tới cuối
+    index: ghi lại vị trí mà 2 đoạn code bắt đầu giống nhau cho tới cuối.
  */
