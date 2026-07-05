@@ -21,8 +21,8 @@ public class EIUCUBES {
     }
 }
 /*cách làm bài: nhìn tổng quát ta thấy rằng nó thuộc dạng nếu n=4 thì 1+(1+2)+(1+2+3)+(1+2+3+4)
-vậy thì tạo 2 biến 1 biến giữ các giá trị tăng dần và 1 biến cộng hết các giá trị đó lại nếu nó bé hơn
-hoặc bằng số gạch nhập vào, thì break vòng lặp luôn.
+vậy thì tạo 2 biến 1 biến giữ các giá trị tăng dần và 1 biến cộng hết các giá trị đó lại nếu nó lớn hơn
+số gạch nhập vào, thì break vòng lặp luôn.
 Chú thích:
     bricks: số gạch nhập vào
     layers: số lớp và cũng là kết quả cần tìm
