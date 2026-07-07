@@ -2,7 +2,7 @@ package app_1;
 import java.util.Scanner;
 
 
-public class test {
+public class debug_exerice_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -43,13 +43,13 @@ public class test {
                 resultValue = checkingValue; 
                 highestCount = occurrenceCount;
             }
-            else if(occurrenceCount==highestCount && checkingValue<=resultValue){
+            else if(occurrenceCount==highestCount && checkingValue<resultValue){
                 resultValue = checkingValue; 
                 highestCount = occurrenceCount;
             }
         }
 
 
-        System.out.println(highestCount + " occurs for value " +resultValue);
+        System.out.println(resultValue+" "+highestCount);
     }
 }
