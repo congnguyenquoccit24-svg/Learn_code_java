@@ -37,3 +37,25 @@ compiler (outOfBound). Trường hợp nếu nó bé hơn thì lấy số tiền
     result: là kết quả cuối cùng số tiền mình phải trả
     sum: là biến chứa các mốc tiền cũ dùng để trừ khi số tiền nhập vào bé hơn mốc thứ i
  */
+
+/* Cách 2: 
+
+package app_1;
+import java.util.*;
+public class tesst {
+    static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){
+        long money = sc.nextLong();
+        long[] moneyPoint = {0,2000000,10000000,50000000,100000000,200000000,500000000,Long.MAX_VALUE};
+        double[] discount = {1,0.97,0.95,0.93,0.9,0.88,0.85};
+        long pay = 0;
+        for(int i=1; i<moneyPoint.length; i++){
+            if(money>moneyPoint[i-1]){
+                pay+=(Math.min(money,moneyPoint[i])-moneyPoint[i-1])*discount[i-1];
+            }
+        }
+        System.out.print(pay);
+    }
+}
+    
+*/
